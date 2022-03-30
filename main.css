@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Permanent+Marker&display=swap');
 
 * {
 
@@ -11,6 +11,10 @@
 .parrafo {
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+.cuestion {
+ font-family: 'Dosis', sans-serif;   
 }
 
 body {
