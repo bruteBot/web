@@ -4,8 +4,7 @@
     color: rgb(240, 234, 234);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    min-height: 1090;
-    min-width: 1090;
+	width: auto;
 }
 
 .parrafo {
@@ -57,6 +56,10 @@ font-size: 30px;
   color: #000; 
 	background-color: #fff; 
 	} 
+
+img{
+max-width: 50%;
+}
  
 
 /*---------------------------------------*/
