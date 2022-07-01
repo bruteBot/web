@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+    body {
+        background-color: #e1abfa;
+        color: #242323;
+        text-align: center;
+        margin: 20px;
+        width: auto;
+    }
+
+    p {
+        font-size: 1.2em;
+        font-family: 'Acme', sans-serif;
+    }
+
+    #Inicio {
+        font-family: 'Fredoka One', sans-serif;
+        font-size: 3em;
+    }
+
+    #preguntas {
+        font-family: 'Patrick Hand', cursive;
+        font-size: 2em;
+    }
+
+    #imgg{
+        max-width: 10%;
+        -webkit-animation: down 3s linear infinite;
+        animation: down 3s linear infinite;
+    }
+
+    #imagn {
+    border-radius: 5%;
+    max-width: 50%;
+    }
+
+    footer {
+        background-color: #e09dff;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    /* scrollbar */
+    ::-webkit-scrollbar {
+        background-color: #e09dff;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #cb5cff63;
+    }
+
+/* animaciones */
+
+
+    @-webkit-keyframes down {
+        25% {
+             -webkit-transform: translateY(-4px);
+        }
+        50%, 100% {
+             -webkit-transform: translateY(0);
+        }
+        75% {
+             -webkit-transform: translateY(4px);
+        }
+    }
+
+    @keyframes down {
+         25% {
+              transform: translateY(-4px);
+         }
+         50%, 100% {
+              transform: translateY(0);
+         }
+         75% {
+              transform: translateY(4px);
+         }
+    }
+
+/* navbar */
+
+    nav{
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+    nav a{
+        text-decoration: none;
+        font-family: 'Permament Marker', cursive;
+        color: #242323;
+        font-size: 2rem;
+    } 
+
+    nav li{
+        display: inline-block;
+        max-width: 50%;
+        padding:5px 10px;
+        text-align: center;
+        color: #242323;
+    }
+
+    nav li:hover{
+        background-color: #cb5cff63;
+        color: #e09dff;
+        border-radius: 15%;
+    }
