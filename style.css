@@ -54,6 +54,14 @@
         background-color: #cb5cff63;
     }
 
+ ::-moz-scrollbar {
+        background-color: #e09dff;
+    }
+
+    ::-moz-scrollbar-thumb {
+        background-color: #cb5cff63;
+    }
+
 /* animaciones */
 
 
