@@ -27,7 +27,7 @@
     }
 
     #imgg{
-        max-width: 40%;
+        max-width: 30%;
         -webkit-animation: down 3s linear infinite;
         animation: down 3s linear infinite;
     }
